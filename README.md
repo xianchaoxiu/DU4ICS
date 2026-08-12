@@ -16,7 +16,7 @@ We currently focus on deep unfolding methods for image compressive sensing inclu
 
 ## Surveys
 
-- [2025] Deep Unfolding: Recent Developments, Theory, and Design Guidelines [[Paper](https://arxiv.org/abs/2512.03768)]
+- [2025] Deep Unfolding: Recent Developments, Theory, and Design Guidelines, arXiv [[Paper](https://arxiv.org/abs/2512.03768)]
 - [2025] 人工智能中的生成式方法：数学模型、优化算法及其应用, ORT [[Paper](https://www.ort.shu.edu.cn/CN/abstract/abstract21511.shtml)]
 - [2024] Learning to Optimize: A Tutorial for Continuous and Mixed-Integer Optimization, SCCM [[Paper](https://doi.org/10.1007/s11425-023-2293-3)]
 - [2023] Image Denoising: The Deep Learning Revolution and Beyond—A Survey Paper, SIIMS [[Paper](https://doi.org/10.1137/23m1545859)]
@@ -74,13 +74,13 @@ We currently focus on deep unfolding methods for image compressive sensing inclu
 
 ## Generative Learning
 
-- [2026] Error Analysis of Bayesian Inverse Problems with Generative Priors [[Paper](https://arxiv.org/abs/2601.17374)]
-- [2026] P-Flow: Proxy-Gradient Flows for Linear Inverse Problems [[Paper](https://arxiv.org/abs/2605.08328)]
-- [2025] Flow-Matching Guided Deep Unfolding for Hyperspectral Image Reconstruction [[Paper](https://arxiv.org/abs/2510.01912)] [[Code](https://github.com/YiAi03/FMU)]
+- [2026] Error Analysis of Bayesian Inverse Problems with Generative Priors, arXiv [[Paper](https://arxiv.org/abs/2601.17374)]
+- [2026] P-Flow: Proxy-Gradient Flows for Linear Inverse Problems, arXiv [[Paper](https://arxiv.org/abs/2605.08328)]
+- [2025] Flow-Matching Guided Deep Unfolding for Hyperspectral Image Reconstruction, arXiv [[Paper](https://arxiv.org/abs/2510.01912)] [[Code](https://github.com/YiAi03/FMU)]
 - [2025] Using Powerful Prior Knowledge of Diffusion Model in Deep Unfolding Networks for Image Compressive Sensing, CVPR [[Paper](https://doi.org/10.1109/cvpr52734.2025.01677)] [[Code](https://github.com/FengodChen/DMP-DUN-CVPR2025)]
 - [2025] Latent Diffusion Prior Enhanced Deep Unfolding for Snapshot Spectral Compressive Imaging, ECCV [[Paper](https://doi.org/10.1007/978-3-031-73414-4_10)] [[Code](https://github.com/Zongliang-Wu/LADE-DUN)]
 - [2025] Deep Unfolding Architecture Based on Generative Prior Diffusion for Image Compressive Sensing, IEEE SPL [[Paper](https://doi.org/10.1109/lsp.2025.3586178)] [[Code](https://github.com/nkbourne/GPD-CS)]
-- [2025] Diff-Unfolding: A Model-Based Score Learning Framework for Inverse Problems [[Paper](https://arxiv.org/abs/2505.11393)]
+- [2025] Diff-Unfolding: A Model-Based Score Learning Framework for Inverse Problems, arXiv [[Paper](https://arxiv.org/abs/2505.11393)]
 - [2024] Flow Priors for Linear Inverse Problems via Iterative Corrupted Trajectory Matching, NeurIPS [[Paper](https://arxiv.org/abs/2405.18816)] [[Code](https://github.com/YasminZhang/ICTM)]
 - [2024] Regularising Inverse Problems with Generative Machine Learning Models, JMIV [[Paper](https://doi.org/10.1007/s10851-023-01162-x)]
 - [2023] Diffusion Posterior Sampling for General Noisy Inverse Problems, ICLR [[Paper](https://arxiv.org/abs/2209.14687)] [[Code](https://github.com/DPS2022/diffusion-posterior-sampling)]
@@ -103,7 +103,7 @@ We currently focus on deep unfolding methods for image compressive sensing inclu
 - [2026] Deep LoRA-Unfolding Networks for Image Restoration, IEEE TIP [[Paper](https://arxiv.org/abs/2602.18697)]
 - [2025] DeepSN-Net: Deep Semi-Smooth Newton Driven Network for Blind Image Restoration, IEEE TPAMI [[Paper](https://doi.org/10.1109/tpami.2024.3525089)] [[Code](https://github.com/pandazcx/DeepSN-Net)]
 - [2025] Deep Semi-Smooth Newton-Driven Unfolding Network for Multi-Modal Image Super-Resolution, IEEE TIP [[Paper](https://doi.org/10.1109/tip.2025.3625429)] [[Code](https://github.com/pandazcx/SNUM-Net)]
-- [2025] Lightweight Deep Unfolding Networks with Enhanced Robustness for Infrared Small Target Detection [[Paper](https://arxiv.org/abs/2509.08205)] [[Code](https://github.com/xianchaoxiu/L-RPCANet)]
+- [2025] Lightweight Deep Unfolding Networks with Enhanced Robustness for Infrared Small Target Detection, arXiv [[Paper](https://arxiv.org/abs/2509.08205)] [[Code](https://github.com/xianchaoxiu/L-RPCANet)]
 - [2025] Vision-Language Gradient Descent-Driven All-In-One Deep Unfolding Networks, CVPR [[Paper](https://doi.org/10.1109/cvpr52734.2025.00705)] [[Code](https://github.com/xianggkl/VLU-Net)]
 - [2021] Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit, JMLR [[Paper](https://jmlr.org/papers/v22/19-026.html)]
 - [2021] Deep Equilibrium Architectures for Inverse Problems in Imaging, IEEE TCI [[Paper](https://doi.org/10.1109/tci.2021.3118944)] [[Code](https://github.com/dgilton/deep_equilibrium_inverse)]
