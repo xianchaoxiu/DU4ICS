@@ -1,15 +1,15 @@
 # Deep Unrolling for Image Compressive Sensing
 
 
-We currently focus on deep learning for optimization (particularly compressed sensing) including
+We currently focus on deep unfolding methods for image compressive sensing including
 - [Surveys](#Surveys)
-- [Plug-and-Play (PnP)](#PnP)
-- [Deep Unfolding (DU)](#DU)
-- [Deep Equilibrium (DEQ)](#DEQ)
+- [Parameter Learning](#PL)
+- [Structure Learning](#SL)
+- [Generative Learning](#GL)
 
 
 > [!IMPORTANT]
-> **Last Update: 2025/02/01 (No longer updated!)**
+> **Last Update: 2026/08/12 **
 
 
 
