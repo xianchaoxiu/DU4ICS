@@ -6,7 +6,7 @@ We currently focus on deep unfolding methods for image compressive sensing inclu
 - [Parameter Learning](#PL)
 - [Structure Learning](#SL)
 - [Generative Learning](#GL)
-
+- [Others](#Others)
 
 > [!IMPORTANT]
 > Last Update: 2026/08/12 
