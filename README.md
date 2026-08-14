@@ -1,20 +1,18 @@
-# Deep Unrolling for Image Compressive Sensing
+# 图像压缩感知的深度展开求解方法
+
+本项目主要关注图像压缩感知的深度展开求解方法, 包括:
+- [综述](#综述)
+- [参数学习型](#参数学习型)
+- [结构学习型](#结构学习型)
+- [生成式先验驱动型](#生成式先验驱动型)
 
 
-We currently focus on deep unfolding methods for image compressive sensing including
-- [Surveys](#Surveys)
-- [Parameter Learning](#PL)
-- [Structure Learning](#SL)
-- [Generative Learning](#GL)
-- [Others](#Others)
-
-> [!IMPORTANT]
-> Last Update: 2026/08/12 
+> 更新时间: 2026年08月12日 
 
 
-<a id="Surveys"></a>
+<a id="综述"></a>
 
-## Surveys
+## 综述
 
 - [2025] Deep Unfolding: Recent Developments, Theory, and Design Guidelines, arXiv [[Paper](https://arxiv.org/abs/2512.03768)]
 - [2025] 人工智能中的生成式方法：数学模型、优化算法及其应用, ORT [[Paper](https://www.ort.shu.edu.cn/CN/abstract/abstract21511.shtml)]
@@ -27,9 +25,9 @@ We currently focus on deep unfolding methods for image compressive sensing inclu
 - [2020] Image Reconstruction: From Sparsity to Data-Adaptive Methods and Machine Learning, PROC [[Paper](https://doi.org/10.1109/jproc.2019.2936204)]
 - [2019] Solving Inverse Problems Using Data-Driven Models, AN [[Paper](https://doi.org/10.1017/s0962492919000059)]
 
-<a id="PL"></a>
+<a id="参数学习型"></a>
 
-## Parameter Learning
+## 参数学习型
 
 - [2025] How to Warm-Start Your Unfolding Network, SampTA [[Paper](https://arxiv.org/abs/2502.01854)]
 - [2024] Optimization Guarantees of Unfolded ISTA and ADMM Networks with Smooth Soft-Thresholding, IEEE TSP [[Paper](https://doi.org/10.1109/tsp.2024.3412981)]
@@ -44,9 +42,9 @@ We currently focus on deep unfolding methods for image compressive sensing inclu
 - [2017] Understanding Trainable Sparse Coding with Matrix Factorization, ICLR [[Paper](https://openreview.net/forum?id=SJGPL9Dex)]
 - [2010] Learning Fast Approximations of Sparse Coding, ICML [[Paper](https://dl.acm.org/doi/abs/10.5555/3104322.3104374)]
 
-<a id="SL"></a>
+<a id="结构学习型"></a>
 
-## Structure Learning
+## 结构学习型
 
 - [2026] Deep Unfolding ADMM Network for CS Image Reconstruction with Long-Short Term Residuals, SP [[Paper](https://doi.org/10.1016/j.sigpro.2025.110450)]
 - [2026] MP-DUN: Manifold Prior Based Deep Unfolding Network for Image Compressed Sensing, KBS [[Paper](https://doi.org/10.1016/j.knosys.2025.115157)] [[Code](https://github.com/nkbourne/MP-DUN)]
@@ -70,9 +68,9 @@ We currently focus on deep unfolding methods for image compressive sensing inclu
 - [2017] Learned D-AMP: Principled Neural Network Based Compressive Image Recovery, NeurIPS [[Paper](https://arxiv.org/abs/1704.06625)] [[Code](https://github.com/ricedsp/D-AMP_Toolbox)]
 - [2016] Deep ADMM-Net for Compressive Sensing MRI, NeurIPS [[Paper](https://proceedings.neurips.cc/paper_files/paper/2016/hash/1679091c5a880faf6fb5e6087eb1b2dc-Abstract.html)] [[Code](https://github.com/yangyan92/Deep-ADMM-Net)]
 
-<a id="GL"></a>
+<a id="生成式先验驱动型"></a>
 
-## Generative Learning
+## 生成式先验驱动型
 
 - [2026] Error Analysis of Bayesian Inverse Problems with Generative Priors, arXiv [[Paper](https://arxiv.org/abs/2601.17374)]
 - [2026] P-Flow: Proxy-Gradient Flows for Linear Inverse Problems, arXiv [[Paper](https://arxiv.org/abs/2605.08328)]
@@ -94,27 +92,5 @@ We currently focus on deep unfolding methods for image compressive sensing inclu
 - [2020] Solving Inverse Problems via Auto-Encoders, IEEE JSAIT [[Paper](https://doi.org/10.1109/jsait.2020.2983643)]
 - [2017] Compressed Sensing Using Generative Models, ICML [[Paper](https://arxiv.org/abs/1703.03208)] [[Code](https://github.com/AshishBora/csgm)]
 
-<a id="Others"></a>
-
-## Others
-
-- [2026] STAR-Net: An Interpretable Model-Aided Network for Remote Sensing Image Denoising, PR [[Paper](https://doi.org/10.1016/j.patcog.2025.112496)] [[Code](https://github.com/Jason011212/STAR-Net)]
-- [2026] A Constrained Optimization Perspective of Unrolled Transformers, ICML [[Paper](https://arxiv.org/abs/2601.17257)]
-- [2026] Deep LoRA-Unfolding Networks for Image Restoration, IEEE TIP [[Paper](https://arxiv.org/abs/2602.18697)]
-- [2025] DeepSN-Net: Deep Semi-Smooth Newton Driven Network for Blind Image Restoration, IEEE TPAMI [[Paper](https://doi.org/10.1109/tpami.2024.3525089)] [[Code](https://github.com/pandazcx/DeepSN-Net)]
-- [2025] Deep Semi-Smooth Newton-Driven Unfolding Network for Multi-Modal Image Super-Resolution, IEEE TIP [[Paper](https://doi.org/10.1109/tip.2025.3625429)] [[Code](https://github.com/pandazcx/SNUM-Net)]
-- [2025] Lightweight Deep Unfolding Networks with Enhanced Robustness for Infrared Small Target Detection, arXiv [[Paper](https://arxiv.org/abs/2509.08205)] [[Code](https://github.com/xianchaoxiu/L-RPCANet)]
-- [2025] Vision-Language Gradient Descent-Driven All-In-One Deep Unfolding Networks, CVPR [[Paper](https://doi.org/10.1109/cvpr52734.2025.00705)] [[Code](https://github.com/xianggkl/VLU-Net)]
-- [2021] Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit, JMLR [[Paper](https://jmlr.org/papers/v22/19-026.html)]
-- [2021] Deep Equilibrium Architectures for Inverse Problems in Imaging, IEEE TCI [[Paper](https://doi.org/10.1109/tci.2021.3118944)] [[Code](https://github.com/dgilton/deep_equilibrium_inverse)]
-- [2017] The Little Engine That Could: Regularization by Denoising, SIIMS [[Paper](https://doi.org/10.1137/16m1102884)]
-- [2014] Proximal Algorithms, FnT OPT [[Paper](https://doi.org/10.1561/2400000003)]
-- [2013] Plug-And-Play Priors for Model-Based Reconstruction, GlobalSIP [[Paper](https://doi.org/10.1109/globalsip.2013.6737048)] [[Code](https://github.com/svvenkatakrishnan/plug-and-play-priors)]
-- [2011] Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers, FnT ML [[Paper](https://doi.org/10.1561/9781601984616)]
-- [2011] A First-Order Primal-Dual Algorithm for Convex Problems with Applications to Imaging, JMIV [[Paper](https://doi.org/10.1007/s10851-010-0251-1)]
-- [2010] Large-Scale Machine Learning with Stochastic Gradient Descent, COMPSTAT [[Paper](https://doi.org/10.1007/978-3-7908-2604-3_16)]
-- [2009] A Fast Iterative Shrinkage-Thresholding Algorithm for Linear Inverse Problems, SIIMS [[Paper](https://doi.org/10.1137/080716542)]
-- [2009] Message-Passing Algorithms for Compressed Sensing, PNAS [[Paper](https://doi.org/10.1073/pnas.0909892106)]
-- [2001] Convergence of a Block Coordinate Descent Method for Nondifferentiable Minimization, JOTA [[Paper](https://doi.org/10.1023/a:1017501703105)]
 
 
